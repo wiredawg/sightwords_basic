@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            SightWords!
+        </title>
+
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+    <body>
+
+        <h1 id="title">My Sight Words</h1>
+        <div id="app">
+            <div id="wordbox"></div>
+            <div id="arrow">&rarr;</div>
+            <div id="app-footer">
+                <div id="rand-button" onclick="RandomWord()">Random!!!</div>
+                <div id="next-button" onclick="NextWord()">Next!!!</div>
+                <div>Page: <span id="workpage_view"></span></div>
+            </div>
+        </div>
+
+        <!-- Javascript -->
+        <script type='text/javascript' src='js/words.js'></script>
+        <script type='text/javascript' src='js/app.js'></script>
+        <script> init(); </script>
+    </body>
+</html>
